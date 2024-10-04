@@ -1,1 +1,52 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mobile Legends</title>
+</head>
+<body>
+    <header class="layout-header">Mobile Legends: Bang Bang</header>
+
+    <main class="layout-main">
+        <section class="module heroes-section">
+            <h2>Top Heroes</h2>
+            <div class="module hero-card">
+                <h3>Layla</h3>
+                <p>Layla is a marksman known for her long-range attacks and high damage output.</p>
+            </div>
+            <div class="module hero-card">
+                <h3>Aldous</h3>
+                <p>Aldous is a fighter who can deal massive damage with his ultimate skill.</p>
+            </div>
+        </section>
+
+        <section class="module items-section">
+            <h2>Essential Items</h2>
+            <ul class="module-item-list">
+                <li>Blade of Despair</li>
+                <li>Bloodlust Axe</li>
+                <li>Endless Battle</li>
+            </ul>
+        </section>
+
+        <section class="module strategies-section">
+            <h2>Winning Strategies</h2>
+            <p>Coordinate with your team and take advantage of map control to secure objectives.</p>
+        </section>
+        
+        <button class="button" id="theme-toggle">Toggle Theme</button>
+    </main>
+
+    <footer class="layout-footer">© 2024 Mobile Legends Community</footer>
+
+    <script>
+        // Theme toggle functionality
+        document.getElementById('theme-toggle').addEventListener('click', function() {
+            document.body.classList.toggle('theme-dark');
+        });
+    </script>
+</body>
+</html>
